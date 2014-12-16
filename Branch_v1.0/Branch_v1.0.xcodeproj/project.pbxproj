@@ -14,6 +14,8 @@
 		6FD42DE21A400D420092C166 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD42DE11A400D420092C166 /* Images.xcassets */; };
 		6FD42DE51A400D420092C166 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD42DE31A400D420092C166 /* LaunchScreen.xib */; };
 		6FD42DF11A400D420092C166 /* Branch_v1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD42DF01A400D420092C166 /* Branch_v1_0Tests.m */; };
+		6FD42DFD1A40140E0092C166 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD42DFB1A40140E0092C166 /* TestTableViewController.m */; };
+		6FD42DFE1A40140E0092C166 /* TestTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FD42DFC1A40140E0092C166 /* TestTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		6FD42DEA1A400D420092C166 /* Branch_v1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Branch_v1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD42DEF1A400D420092C166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FD42DF01A400D420092C166 /* Branch_v1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Branch_v1_0Tests.m; sourceTree = "<group>"; };
+		6FD42DFA1A40140E0092C166 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		6FD42DFB1A40140E0092C166 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		6FD42DFC1A40140E0092C166 /* TestTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				6FD42DD91A400D420092C166 /* AppDelegate.m */,
 				6FD42DDB1A400D420092C166 /* ViewController.h */,
 				6FD42DDC1A400D420092C166 /* ViewController.m */,
+				6FD42DFA1A40140E0092C166 /* TestTableViewController.h */,
+				6FD42DFB1A40140E0092C166 /* TestTableViewController.m */,
+				6FD42DFC1A40140E0092C166 /* TestTableViewController.xib */,
 				6FD42DDE1A400D420092C166 /* Main.storyboard */,
 				6FD42DE11A400D420092C166 /* Images.xcassets */,
 				6FD42DE31A400D420092C166 /* LaunchScreen.xib */,
@@ -202,6 +210,7 @@
 				6FD42DE01A400D420092C166 /* Main.storyboard in Resources */,
 				6FD42DE51A400D420092C166 /* LaunchScreen.xib in Resources */,
 				6FD42DE21A400D420092C166 /* Images.xcassets in Resources */,
+				6FD42DFE1A40140E0092C166 /* TestTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				6FD42DDD1A400D420092C166 /* ViewController.m in Sources */,
 				6FD42DDA1A400D420092C166 /* AppDelegate.m in Sources */,
 				6FD42DD71A400D420092C166 /* main.m in Sources */,
+				6FD42DFD1A40140E0092C166 /* TestTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
